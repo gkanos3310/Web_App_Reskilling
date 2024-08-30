@@ -1,0 +1,5 @@
+{
+    "POSTS_ENDPOINT" : "https://jsonplaceholder.typicode.com/posts",
+    "PHOTOS_ENDPOINT" : "https://jsonplaceholder.typicode.com/photos",
+    "CACHE_REFRESH_THRESHOLD" : 300000
+}

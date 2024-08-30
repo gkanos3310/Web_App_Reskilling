@@ -1,15 +1,16 @@
 {
     "POSTS_ENDPOINT" : "https://jsonplaceholder.typicode.com/posts",
     "PHOTOS_ENDPOINT" : "https://jsonplaceholder.typicode.com/photos",
+    "SERVER_PORT" : "http://localhost:3000",
     "SITE_NAME" : "Site name",
     "POSTS_LIST" : "Posts List",
     "RELATED_ARTICLES" : "Related articles or posts",
     "POSTS_NUM" : 12,
     "BUTTONS" : [
-        {"label" : "Page"},
-        {"label" : "Page"},
-        {"label" : "Page"},
-        {"label" : "Button"}
+        {"label" : "Page", "tooltip" : "Posts [1-33]"},
+        {"label" : "Page", "tooltip" : "Posts [34-66]"},
+        {"label" : "Page", "tooltip" : "Posts [67-100]"},
+        {"label" : "Button", "tooltip" : "Back to Homepage"}
     ],
     "FOOTER_TABLE" : [
         {"label" : "Topic"},
@@ -24,5 +25,6 @@
         {"label" : "Page"},
         {"label" : "Page"},
         {"label" : "Page"}
-    ]
+    ],
+    "GENERAL_SIDE_MARGIN_PER_SCREEN" : "mx-8 md:mx-20 xl:mx-32 "
 }
